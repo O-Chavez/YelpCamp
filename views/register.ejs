@@ -1,0 +1,22 @@
+<%- include("./partials/header") %> 
+
+
+
+<div class="container" id="credsContainer">
+  <header class="jumbotron">
+    <div class="container" id="userInfo">
+      <h1 id="credsBanner">Sign Up!</h1>
+          <form action="/register" method="POST">
+          <label for="username">New User Name</label>
+          <input type="text" class="form-control" name="username" aria-describedby="emailHelp" placeholder="Username">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" name="password" class="form-control" placeholder="Pasword">
+          <button  id="passField" type="submit" class="btn btn-primary">Submit</button>
+        </form> 
+      </header>
+    </div>
+</div>
+
+
+
+<%- include("./partials/footer") %> 

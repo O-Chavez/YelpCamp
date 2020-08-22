@@ -1,0 +1,64 @@
+.thumbnail img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.thumbnail {
+  padding: 0;
+  border-radius: 10px;
+}
+
+.thumbnail .caption-full {
+  padding: 10px;
+}
+
+.delete-form {
+  display: inline;
+}
+
+/* Google Maps */
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#credsBanner {
+  text-align: center;
+}
+
+#passField {
+  margin-top: 15px;
+}
+
+#credsContainer {
+  margin-top: 8em;
+}
+
+#showBtn {
+  margin: 10px 50px 30px 30px;
+}
+
+#landing-header {
+  opacity: 0.5;
+}
+
+#logoIcon {
+size: 20em
+}
+
+#tree {
+  color: white;
+}
+
+#lead {
+  text-align: center;
+  position: relative;
+}
+
+#spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
