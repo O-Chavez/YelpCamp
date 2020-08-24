@@ -19,7 +19,7 @@ var express             = require("express"),
         authRoutes          = require("./routes/auth")
 
     // How to connect to MongoDb using Mongoose Npm package
-    mongoose.connect('mongodb://localhost:27017/yelp_camp_v2', {
+    mongoose.connect('mongodb+srv://OscarYelpCamp:YelpC1234@cluster0.ynm4r.mongodb.net/OscarYelpCamp?retryWrites=true&w=majority', {
       useNewUrlParser: true,
       useUnifiedTopology: true
     })
