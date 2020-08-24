@@ -21,9 +21,11 @@ var express             = require("express"),
     // How to connect to MongoDb using Mongoose Npm package
     // local host
 
+    console.log(process.env.DATABASEURL)
+
      mongoose.connect(process.env.DATABASEURL, {
       //  ==== local ===
-    // mongoose.connect("mongodb://localhost/yelp_camp_v2",
+    // mongoose.connect("mongodb://localhost/yelp_camp_v2", {
     // ===== MongoAtlas =====
     // mongoose.connect('mongodb+srv://OscarYelpCamp:YelpC1234@cluster0.ynm4r.mongodb.net/OscarYelpCamp?retryWrites=true&w=majority', {
       useNewUrlParser: true,
@@ -31,6 +33,8 @@ var express             = require("express"),
     })
     .then(() => console.log('Connected to DB!'))
     .catch(error => console.log(error.message));
+
+
     app.use(bodyParser.urlencoded({extended: true}));
     app.set("view engine", "ejs");
     app.use(methodOverride("_method"));
