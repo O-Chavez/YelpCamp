@@ -21,8 +21,9 @@
 .container {
   z-index: 3;
 }
-.jumbotron{
-  margin-top: 2em;
+#holder{
+  background-color: white;
+  border-radius: 15px;
 }
 .thumbnail img {
   width: 100%;
@@ -89,7 +90,7 @@ size: 20em
 }
 
 .navbar-default {
-  margin:0;
+  margin-bottom: 2;
 }
 
 @media (max-width: 1200px) {

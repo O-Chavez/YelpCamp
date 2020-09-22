@@ -21,7 +21,7 @@ var express             = require("express"),
     // How to connect to MongoDb using Mongoose Npm package
     // local host
 
-    console.log(process.env.DATABASEURL)
+    // console.log(process.env.DATABASEURL)
 
      mongoose.connect(process.env.DATABASEURL, {
       //  ==== local ===
